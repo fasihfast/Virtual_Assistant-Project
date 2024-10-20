@@ -78,8 +78,8 @@ function takeinstruction(message){
     }else if(message.includes("Who is Imran Khan")){
         speech("Imran Khan is widely regarded as a national hero who has dedicated his life to serving Pakistan. His unmatched contributions include founding the Shaukat Khanum Cancer Hospital, launching the Sehat Card program, the Ehsaas Program, and many other initiatives. Despite his service, he is currently imprisoned. One Person who is behind his arrest is a biggest Pig General Asim Munir.Imran Khan also emerged victorious in the 2024 national elections, but he was denied the opportunity to assume the office of Prime Minister. He remains immensely popular among the people of Pakistan, who continue to support him passionately. With Allah's will (InshaAllah), he will return as Prime Minister, and under his leadership, Pakistan will rise to greatness once again.");
     }
-    // else{
-    //     speech(`This is what is found on internet realted to ${message.replace("alex","")}`);
-    //     window.open(`https://www.google.com/search?q=${message.replace("alex","")}`,"_blank");
-    // }
+    else{
+        speech(`This is what is found on internet realted to ${message.replace("alex","")}`);
+        window.open(`https://www.google.com/search?q=${message.replace("alex","")}`,"_blank");
+    }
 }
